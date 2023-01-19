@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.img-wrap {
+    overflow: hidden;
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;   
+    }
+
+.img-wrap > div {
+    position: absolute;
+    }
+
+.myDIV3 {
+    width: 23.7%;
+    height: 19.2%;
+    background: green;
+    left: 70.7%;
+    top: 34.5%;
+    }  
+
+.myDIV4 {
+    width: 23.7%;
+    height: 23%;
+    background: green;
+    left: 70.7%;
+    top: 11.3%;
+    }  
+
